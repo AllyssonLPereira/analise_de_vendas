@@ -15,9 +15,11 @@ Tudo isso com uma saída colorida no terminal para melhor visualização.
 
 - Entrada de valores de vendas por dia da semana.
 - Cálculo automático de:
+  
   - Total de vendas
   - Média das vendas
   - Menor e maior venda com dia correspondente
+    
 - Mensagens de erro claras e coloridas.
 - Interface simples no terminal com cores ANSI para facilitar a leitura.
 
@@ -67,9 +69,11 @@ Maior venda: R$ 300.00 - Sunday
 
 - bcolors: Classe utilitária com códigos ANSI para colorir a saída no terminal.
 - CalculateSales: Classe principal que:
+  
     - Recebe os dados de entrada.
     - Calcula os valores agregados.
     - Apresenta os resultados com formatação.
+      
 - get_infos(): Método de classe que coleta os dados via input().
 - total, media, min, max: Propriedades que retornam os valores calculados.
 
